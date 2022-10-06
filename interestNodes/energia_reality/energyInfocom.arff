@@ -1,0 +1,49 @@
+@relation energy
+
+@attribute Otimo numeric
+@attribute Regular numeric
+@attribute class {Otimo,Regular}
+@attribute NodeNumberAttribute string
+
+@data
+
+76,0,Otimo,'1'
+51,0,Otimo,'2'
+0,26,Regular,'3'
+89,0,Otimo,'4'
+77,0,Otimo,'5'
+52,0,Otimo,'6'
+0,27,Regular,'7'
+0,10,Regular,'8'
+78,0,Otimo,'9'
+53,0,Otimo,'10'
+0,28,Regular,'11'
+0,25,Regular,'12'
+79,0,Otimo,'13'
+56,0,Otimo,'14'
+0,29,Regular,'15'
+0,13,Regular,'16'
+80,0,Otimo,'17'
+57,0,Otimo,'18'
+0,30,Regular,'19'
+0,14,Regular,'20'
+81,0,Otimo,'21'
+68,0,Otimo,'22'
+0,31,Regular,'23'
+0,5,Regular,'24'
+82,0,Otimo,'25'
+59,0,Otimo,'26'
+90,0,Otimo,'27'
+0,12,Regular,'28'
+83,0,Otimo,'29'
+60,0,Otimo,'30'
+69,0,Otimo,'31'
+0,7,Regular,'32'
+61,0,Otimo,'33'
+0,34,Regular,'34'
+0,8,Regular,'35'
+84,0,Otimo,'36'
+66,0,Otimo,'37'
+0,35,Regular,'38'
+0,9,Regular,'39'
+81.0, 0.0, ?, ?

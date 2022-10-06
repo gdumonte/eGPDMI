@@ -1,0 +1,455 @@
+#
+# Default settings for the simulation
+#
+
+## Scenario settings
+##Scenario.name = default_scenario
+Scenario.name = %%Events2.filePath%%%%Group.bufferSize%%%%Group.router%%
+
+##############################################################################
+
+##Scenario.simulateConnections = true
+Scenario.simulateConnections = false
+
+##############################################################################
+
+Scenario.updateInterval = 1
+# 43200s == 12h
+
+#Scenario.endTime = 337418
+#Scenario.endTime = 16979816
+
+##############################################################################
+###JANELAS DE TEMPO############################
+
+#Scenario.endTime = 337418
+#Events1.interval = 67483,67483
+#Events2.filePath = mobilidade/janelas/reality1.txt
+
+#Scenario.endTime = 674837
+#Events1.interval = 134967,134967
+#Events2.filePath = mobilidade/janelas/reality2.txt
+
+Scenario.endTime = 1012256
+Events1.interval = 202451,202451
+Events2.filePath = mobilidade/janelas/reality3.txt
+
+#Scenario.endTime = 1349675
+#Events1.interval = 269935,269935
+#Events2.filePath = mobilidade/janelas/reality4.txt
+
+#Scenario.endTime = 1687094
+#Events1.interval = 337418,337418
+#Events2.filePath = mobilidade/janelas/reality5.txt
+
+#Scenario.endTime = 2024513
+#Events1.interval = 404902,404902
+#Events2.filePath = mobilidade/janelas/reality6.txt
+
+#Scenario.endTime = 2361932
+#Events1.interval = 472386,472386
+#Events2.filePath = mobilidade/janelas/reality7.txt
+
+#Scenario.endTime = 2699351
+#Events1.interval = 539870,539870
+#Events2.filePath = mobilidade/janelas/reality8.txt
+
+#Scenario.endTime = 3036770
+#Events1.interval = 607354,607354
+#Events2.filePath = mobilidade/janelas/reality9.txt
+
+#Scenario.endTime = 3374189
+#Events1.interval = 674837,674837
+#Events2.filePath = mobilidade/janelas/reality10.txt
+
+#Scenario.endTime = 3711608
+#Events1.interval = 742321,742321
+#Events2.filePath = mobilidade/janelas/reality11.txt
+
+#Scenario.endTime = 4049027
+#Events1.interval = 809805,809805
+#Events2.filePath = mobilidade/janelas/reality12.txt
+
+#Scenario.endTime = 4386446
+#Events1.interval = 877289,877289
+#Events2.filePath = mobilidade/janelas/reality13.txt
+
+#Scenario.endTime = 4723865
+#Events1.interval = 944773,944773
+#Events2.filePath = mobilidade/janelas/reality14.txt
+
+#Scenario.endTime = 5061284
+#Events1.interval = 1012256,1012256
+#Events2.filePath = mobilidade/janelas/reality15.txt
+
+#Scenario.endTime = 5398703
+#Events1.interval = 1079740,1079740
+#Events2.filePath = mobilidade/janelas/reality16.txt
+
+#Scenario.endTime = 5736122
+#Events1.interval = 1147224,1147224
+#Events2.filePath = mobilidade/janelas/reality17.txt
+
+#Scenario.endTime = 6073541
+#Events1.interval = 1214708,1214708
+#Events2.filePath = mobilidade/janelas/reality18.txt
+
+#Scenario.endTime = 6410960
+#Events1.interval = 1282192,1282192
+#Events2.filePath = mobilidade/janelas/reality19.txt
+
+#Scenario.endTime = 6748379
+#Events1.interval = 1349675,1349675
+#Events2.filePath = mobilidade/janelas/reality20.txt
+
+#Scenario.endTime = 7085798
+#Events1.interval = 1417159,1417159
+#Events2.filePath = mobilidade/janelas/reality21.txt
+
+#Scenario.endTime = 7423217
+#Events1.interval = 1484643,1484643
+#Events2.filePath = mobilidade/janelas/reality22.txt
+
+#Scenario.endTime = 7760636
+#Events1.interval = 1552127,1552127
+#Events2.filePath = mobilidade/janelas/reality23.txt
+
+#Scenario.endTime = 8098055
+#Events1.interval = 1619611,1619611
+#Events2.filePath = mobilidade/janelas/reality24.txt
+
+#Scenario.endTime = 8435474
+#Events1.interval = 1687094,1687094
+#Events2.filePath = mobilidade/janelas/reality25.txt
+
+#Scenario.endTime = 8772893
+#Events1.interval = 1754578,1754578
+#Events2.filePath = mobilidade/janelas/reality26.txt
+
+#Scenario.endTime = 9110312
+#Events1.interval = 1822062,1822062
+#Events2.filePath = mobilidade/janelas/reality27.txt
+
+#Scenario.endTime = 9447731
+#Events1.interval = 1889546,1889546
+#Events2.filePath = mobilidade/janelas/reality28.txt
+
+#Scenario.endTime = 9785150
+#Events1.interval = 1957030,1957030
+#Events2.filePath = mobilidade/janelas/reality29.txt
+
+#Scenario.endTime = 10122569
+#Events1.interval = 2024513,2024513
+#Events2.filePath = mobilidade/janelas/reality30.txt
+
+#Scenario.endTime = 10459988
+#Events1.interval = 2091997,2091997
+#Events2.filePath = mobilidade/janelas/reality31.txt
+
+#Scenario.endTime = 10797407
+#Events1.interval = 2159481,2159481
+#Events2.filePath = mobilidade/janelas/reality32.txt
+
+#Scenario.endTime = 11134826
+#Events1.interval = 2226965,2226965
+#Events2.filePath = mobilidade/janelas/reality33.txt
+
+#Scenario.endTime = 11472245
+#Events1.interval = 2294449,2294449
+#Events2.filePath = mobilidade/janelas/reality34.txt
+
+#Scenario.endTime = 11809664
+#Events1.interval = 2361932,2361932
+#Events2.filePath = mobilidade/janelas/reality35.txt
+
+#Scenario.endTime = 12147083
+#Events1.interval = 2429416,2429416
+#Events2.filePath = mobilidade/janelas/reality36.txt
+
+#Scenario.endTime = 12484502
+#Events1.interval = 2496900,2496900
+#Events2.filePath = mobilidade/janelas/reality37.txt
+
+#Scenario.endTime = 12821921
+#Events1.interval = 2564384,2564384
+#Events2.filePath = mobilidade/janelas/reality38.txt
+
+#Scenario.endTime = 13159340
+#Events1.interval = 2631868,2631868
+#Events2.filePath = mobilidade/janelas/reality39.txt
+
+#Scenario.endTime = 13496759
+#Events1.interval = 2699351,2699351
+#Events2.filePath = mobilidade/janelas/reality40.txt
+
+#Scenario.endTime = 13834178
+#Events1.interval = 2766835,2766835
+#Events2.filePath = mobilidade/janelas/reality41.txt
+
+#Scenario.endTime = 14171597
+#Events1.interval = 2834319,2834319
+#Events2.filePath = mobilidade/janelas/reality42.txt
+
+#Scenario.endTime = 14509016
+#Events1.interval = 2901803,2901803
+#Events2.filePath = mobilidade/janelas/reality43.txt
+
+#Scenario.endTime = 14846435
+#Events1.interval = 2969287,2969287
+#Events2.filePath = mobilidade/janelas/reality44.txt
+
+#Scenario.endTime = 15183854
+#Events1.interval = 3036770,3036770
+#Events2.filePath = mobilidade/janelas/reality45.txt
+
+#Scenario.endTime = 15521273
+#Events1.interval = 3104254,3104254
+#Events2.filePath = mobilidade/janelas/reality46.txt
+
+#Scenario.endTime = 15858692
+#Events1.interval = 3171738,3171738
+#Events2.filePath = mobilidade/janelas/reality47.txt
+
+#Scenario.endTime = 16196111
+#Events1.interval = 3239222,3239222
+#Events2.filePath = mobilidade/janelas/reality48.txt
+
+#Scenario.endTime = 16533530
+#Events1.interval = 3306706,3306706
+#Events2.filePath = mobilidade/janelas/reality49.txt
+
+#Scenario.endTime = 16870949
+#Events1.interval = 3374189,3374189
+#Events2.filePath = mobilidade/janelas/reality50.txt
+
+#Scenario.endTime = 17208368
+#Events1.interval = 3441673,3441673
+#Events2.filePath = mobilidade/janelas/reality51.txt
+
+
+########################################################################################################################
+
+## Interface-specific settings:
+# type : which interface class the interface belongs to
+# For different types, the sub-parameters are interface-specific
+# For SimpleBroadcastInterface, the parameters are:
+# transmitSpeed : transmit speed of the interface (bytes per second)
+# transmitRange : range of the interface (meters)
+
+# "Bluetooth" interface for all nodes
+btInterface.type = SimpleBroadcastInterface
+# Transmit speed of 2 Mbps = 250kBps
+btInterface.transmitSpeed = 250k
+btInterface.transmitRange = 10
+
+# High speed, long range, interface for group 4
+highspeedInterface.type = SimpleBroadcastInterface
+highspeedInterface.transmitSpeed = 10M
+highspeedInterface.transmitRange = 1000
+
+# Define 6 different node groups
+Scenario.nrofHostGroups = 1
+
+## Group-specific settings:
+# groupID : Group's identifier. Used as the prefix of host names
+# nrofHosts: number of hosts in the group
+# movementModel: movement model of the hosts (valid class name from movement package)
+# waitTime: minimum and maximum wait times (seconds) after reaching destination
+# speed: minimum and maximum speeds (m/s) when moving on a path
+# bufferSize: size of the message buffer (bytes)
+# router: router used to route messages (valid class name from routing package)
+# activeTimes: Time intervals when the nodes in the group are active (start1, end1, start2, end2, ...)
+# msgTtl : TTL (minutes) of the messages created by this host group, default=infinite
+
+## Group and movement model specific settings
+# pois: Points Of Interest indexes and probabilities (poiIndex1, poiProb1, poiIndex2, poiProb2, ... )
+#       for ShortestPathMapBasedMovement
+# okMaps : which map nodes are OK for the group (map file indexes), default=all
+#          for all MapBasedMovent models
+# routeFile: route's file path - for MapRouteMovement
+# routeType: route's type - for MapRouteMovement
+
+
+######################################################################################
+# Common settings for all groups
+Group.movementModel = RandomWaypoint
+Group.router = EpidemicRouter
+
+
+#Group.bufferSize = 100M
+#Group.bufferSize = 50M
+Group.bufferSize = 10M
+
+Group.waitTime = 0, 120
+# All nodes have the bluetooth interface
+Group.nrofInterfaces = 1
+Group.interface1 = btInterface
+# Walking speeds
+Group.speed = 0.5, 1.5
+# Message TTL of 300 minutes (5 hours)
+#Group.msgTtl = 300
+
+#####################################################################################
+
+
+#Group.nrofHosts = 4725
+Group.nrofHosts = 99
+
+######################################################################################
+
+# group1 (pedestrians) specific settings
+Group1.groupID = p
+
+# group2 specific settings
+Group2.groupID = c
+# cars can drive only on roads
+Group2.okMaps = 1
+# 10-50 km/h
+Group2.speed = 2.7, 13.9
+
+# another group of pedestrians
+Group3.groupID = w
+
+# The Tram groups
+Group4.groupID = t
+Group4.bufferSize = 50M
+Group4.movementModel = MapRouteMovement
+Group4.routeFile = data/tram3.wkt
+Group4.routeType = 1
+Group4.waitTime = 10, 30
+Group4.speed = 7, 10
+Group4.nrofHosts = 2
+Group4.nrofInterfaces = 2
+Group4.interface1 = btInterface
+Group4.interface2 = highspeedInterface
+
+Group5.groupID = t
+Group5.bufferSize = 50M
+Group5.movementModel = MapRouteMovement
+Group5.routeFile = data/tram4.wkt
+Group5.routeType = 2
+Group5.waitTime = 10, 30
+Group5.speed = 7, 10
+Group5.nrofHosts = 2
+
+Group6.groupID = t
+Group6.bufferSize = 50M
+Group6.movementModel = MapRouteMovement
+Group6.routeFile = data/tram10.wkt
+Group6.routeType = 2
+Group6.waitTime = 10, 30
+Group6.speed = 7, 10
+Group6.nrofHosts = 2
+
+
+## Message creation parameters
+# How many event generators
+#######################################################################################
+
+Events.nrof = 2
+
+#######################################################################################
+
+
+# Class of the first event generator
+Events1.class = MessageEventGenerator
+# (following settings are specific for the MessageEventGenerator class)
+# Creation interval in seconds (one new message every 25 to 35 seconds)
+#Events1.interval = 6000000,6000000
+#Events1.interval = 200,200
+#Events1.interval = 0,16870
+#Events1.interval = 337418,337418
+
+
+# Message sizes (500kB - 1MB)
+#Events1.size = 500k,1M
+Events1.size = 10k, 10k
+#######################################################################################
+# range of message source/destination addresses
+
+
+#Events1.hosts = 0,4725
+Events1.hosts = 0,98
+
+
+#######################################################################################
+
+# Message ID prefix
+Events1.prefix = M
+
+#######################################################################################
+
+
+#Events2.filePath = mobilidade/one_infocom2006.txt
+#Events2.filePath = mobilidade/one_reality.txt
+
+
+
+
+
+
+## Movement model settings
+# seed for movement models' pseudo random number generator (default = 0)
+###DLK
+# MovementModel.rngSeed = 983
+###MOFO
+# MovementModel.rngSeed = 13
+###DROP_TAIL
+# MovementModel.rngSeed = 877
+###DROP_OLDEST
+MovementModel.rngSeed = 971
+
+
+###################################################################################################################################################
+
+# World's size for Movement Models without implicit size (width, height; meters)
+MovementModel.worldSize = 1000, 1000
+# How long time to move hosts in the world before real simulation
+MovementModel.warmup = 0
+
+## Map based movement -movement model specific settings
+MapBasedMovement.nrofMapFiles = 4
+
+MapBasedMovement.mapFile1 = data/roads.wkt
+MapBasedMovement.mapFile2 = data/main_roads.wkt
+MapBasedMovement.mapFile3 = data/pedestrian_paths.wkt
+MapBasedMovement.mapFile4 = data/shops.wkt
+
+## Reports - all report names have to be valid report classes
+
+# how many reports to load
+Report.nrofReports = 1
+# length of the warm up period (simulated seconds)
+Report.warmup = 0
+# default directory of reports (can be overridden per Report with output setting)
+Report.reportDir = reports/reality/janela
+# Report classes to load
+Report.report1 = MessageStatsReport
+Report.report2 = ContactTimesReport
+
+## Default settings for some routers settings
+ProphetRouter.secondsInTimeUnit = 30
+SprayAndWaitRouter.nrofCopies = 6
+SprayAndWaitRouter.binaryMode = true
+
+## Optimization settings -- these affect the speed of the simulation
+## see World class for details.
+Optimization.cellSizeMult = 5
+Optimization.randomizeUpdateOrder = true
+
+
+## GUI settings
+
+# GUI underlay image settings
+GUI.UnderlayImage.fileName = data/helsinki_underlay.png
+# Image offset in pixels (x, y)
+GUI.UnderlayImage.offset = 64, 20
+# Scaling factor for the image
+GUI.UnderlayImage.scale = 4.75
+# Image rotation (radians)
+GUI.UnderlayImage.rotate = -0.015
+
+# how many events to show in the log panel (default = 30)
+GUI.EventLogPanel.nrofEvents = 100
+# Regular Expression log filter (see Pattern-class from the Java API for RE-matching details)
+#GUI.EventLogPanel.REfilter = .*p[1-9]<->p[1-9]$

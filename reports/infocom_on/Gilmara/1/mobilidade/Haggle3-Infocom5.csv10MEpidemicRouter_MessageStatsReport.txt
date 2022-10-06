@@ -1,0 +1,5 @@
+Message stats for scenario mobilidade/Haggle3-Infocom5.csv10MEpidemicRouter
+sim_time: 274884.0000
+created	|	started	|	relayed	|	aborted	|	dropped	|	removed	|	 delivered	|	delivery_prob	|	response_prob	|	noverhead_prob	|	noverhead_radio	|	latency_avg	|	latency_med	|	hopcount_avg	|hopcount_med	|	buffertime_avg	|	buffertime_med	|	nrtt_avg	|	nrtt_med	|
+554	|	12315	|	5964	|	807	|	0	|	0	|	216	|	0.3899	|	0.0000	|	26.6111	|	40822.3694	|	31598.2000	|	2.5417	|	2	|	NaN	|	NaN	|	NaN	|	NaN
+

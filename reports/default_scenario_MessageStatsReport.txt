@@ -1,0 +1,5 @@
+Message stats for scenario default_scenario
+sim_time: 0.0000
+created	|	started	|	relayed	|	aborted	|	dropped	|	removed	|	 delivered	|	delivery_prob	|	response_prob	|	noverhead_prob	|	noverhead_radio	|	latency_avg	|	latency_med	|	hopcount_avg	|hopcount_med	|	buffertime_avg	|	buffertime_med	|	nrtt_avg	|	nrtt_med	|
+0	|	0	|	0	|	0	|	0	|	0	|	0	|	0.0000	|	0.0000	|	NaN	|	NaN	|	NaN	|	NaN	|	0	|	NaN	|	NaN	|	NaN	|	NaN
+
